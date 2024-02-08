@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100;0,600;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-image: url('../img/header.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Fredoka One', sans-serif;
+}
+
+h1 {
+    font-family: 'Montagu Slab', serif;
+    color: #fff;
+    text-shadow: 2px 2px 4px #2B4570, -2px -2px 4px #F7BFB4;
+    animation: bounce 1s infinite;
+
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    60% {
+        transform: translateY(-10px);
+    }
+
+}
+
+nav {
+    background-color: #2B4570;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px; /* Espaciado interno del navbar */
+    border-radius: 20px; /* Bordes circulares */
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    position: sticky;
+    top: 10px;
+    z-index: 100;
+    box-shadow: 0 0 30px #DB93B0; /* Resplandor blanco */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #DB93B0;
+    color: #0f1c237a;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.titulo {
+    font-size: 100px;
+
+}
+
+img {
+    margin-right: 30px;
+    height: 200px;
+    width: auto;
+
+}
+
+div {
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+h2 {
+    text-align: left;
+    color: #2B4570;
+    font-size: 40px;
+    font-family: 'MuseoModerno', sans-serif;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px #F7BFB4;
+}
+
+h4 {
+    text-align: center;
+    color: #DB93B0;
+    font-size: 30px;
+    font-family: 'Grandstander';
+    font-weight: 500;
+    margin-top: -10px;
+    margin-bottom: -7px;
+}
+h5 {
+    line-height: 2;
+    font-family: 'MuseoModerno', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    color: rgba(19, 31, 98, 0.825);
+    margin-right: 30px;
+    animation: colorChange 5s infinite;
+}
+
+@keyframes colorChange {
+    0% { color: #2B4570; }
+    50% { color: #DB93B0; }
+    100% { color: #88CCF1; }
+}
+
+p {
+    line-height: 2;
+    font-family: 'MuseoModerno', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    color: rgba(19, 31, 98, 0.825);
+    margin-right: 30px;
+
+}
+
+article {
+    border-bottom: 1px solid #ccc;
+}

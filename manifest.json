@@ -1,0 +1,80 @@
+{
+    "name": "Bratz",
+    "short_name": "Braz",
+    "description": "Aplicacion PWA de las Bratz",
+    "background_color": "#FFF",
+    "theme_color": "#88CCF1",
+    "orientation": "landscape",
+    "display": "standalone",
+    "start_url": "./index.html?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-MX",
+    "icons": [
+        {
+            "src": "./img/aa-11.png",
+            "sizes": "1024×576",
+            "type": "image/png"
+        }
+        ,
+        {
+            "src": "./img/aa-10.png",
+            "sizes": "512x288",
+            "type": "image/png"
+        }
+        ,
+        {
+            "src": "./img/aa-9.png",
+            "sizes": "384×216",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/aa-8.png",
+            "sizes": "256x144",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/aa-7.png",
+            "sizes": "192x108",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/aa-6.png",
+            "sizes": "144x81",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/aa-5.png",
+            "sizes": "128x72",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/aa-4.png",
+            "sizes": "96x54",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/aa-3.png",
+            "sizes": "64x36",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/aa-2.png",
+            "sizes": "32x18",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/aa-1.png",
+            "sizes": "16x9",
+            "type": "image/png"
+        },
+
+        {
+            "src": "./img/aa.png",
+            "sizes": "13840×2160",
+            "type": "image/png"
+        }
+        
+    ]
+    
+
+}
